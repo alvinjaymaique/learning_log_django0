@@ -11,4 +11,9 @@
             <li>No topics have been added yet.</li>
         {% endfor %}
     </ul>
+    <a href="{% url 'learning_logs:new_topic' %}">
+        <span style="font-size: 14px; font-weight: bold;">
+            Add a new topic
+        </span>
+    </a>
 {% endblock content %}
