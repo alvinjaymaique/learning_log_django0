@@ -31,7 +31,7 @@ STATIC_URL = "/static/"
 # This is required for collectstatic to work
 STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 
-ALLOWED_HOSTS = ['https://learninglogs-l53t.onrender.com', 'localhost']
+ALLOWED_HOSTS = ['learninglogs-l53t.onrender.com', 'localhost', '127.0.0.1']
 DEBUG = os.getenv('DEBUG', 'FALSE') == 'True'
 
 # Application definition
